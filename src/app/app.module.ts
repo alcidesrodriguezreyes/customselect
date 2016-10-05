@@ -4,10 +4,12 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
+import { MultiselectComponent } from './multiselect/multiselect.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    MultiselectComponent
   ],
   imports: [
     BrowserModule,
