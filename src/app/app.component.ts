@@ -8,7 +8,8 @@ import { ApartmentsService } from './services/apartments.service';
   providers: [ApartmentsService]
 })
 export class AppComponent implements OnInit {
-  title = 'app works!';
+  title:String = "Rent an apartment";
+  brand:String = "Vívelo!";
   apartments: any[];
   
   constructor (private _apartmentService: ApartmentsService){}
